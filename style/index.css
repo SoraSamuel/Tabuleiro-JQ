@@ -1,0 +1,20 @@
+#tabuleiro {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    background-color: antiquewhite;
+  }
+  
+  .celula {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(50, 182, 39);
+  }
+  
+  .celula-preta {
+    background-color: black;
+  }
+  
+  .celula-branca {
+    background-color: white;
+  }
